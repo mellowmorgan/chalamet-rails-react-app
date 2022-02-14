@@ -26,6 +26,7 @@ Ruby on Rails provides the backend to this app with an API for photos and quotes
 * From the main project directory, enter `bundle install` in the terminal to populate gems.
 * To create a database, type in your terminal:  
       `rake db:setup`
+* To install necessary libraries for react, type `npm install`
 * Run `rails s` to start the Rails server.
 * Open browswer and enter the url http://localhost:3000/ unless otherwise prompted in the terminal.
 
