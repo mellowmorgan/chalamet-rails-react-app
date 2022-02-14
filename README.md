@@ -1,24 +1,34 @@
-# README
+# Chalamet React/Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## By: Morgan Waites
 
-Things you may want to cover:
+#### A Rails and React app that displays a random Timothee Chalamet quote and photo.
 
-* Ruby version
+## Technologies Used
 
-* System dependencies
+* _Ruby_
+* _Ruby on Rails_
+* _Postgres_
+* _Gems_
+* _React library_
+* _Javascript_
+* _Node_
+* _Babel_
+* _HTML/CSS_
 
-* Configuration
+## Description
 
-* Database creation
+Ruby on Rails provides the backend to this app with an API for photos and quotes, Postgres database, full CRUD functionality. Frontend built with React integrated into Rails with displays random quotes and photo of Timothee Chalamet, famous actor and favorite of Morgan's, on homepage.
 
-* Database initialization
+## Setup/Installation Requirements
 
-* How to run the test suite
+* Clone this GitHub repository to desired directory on your computer.
+* From the main project directory, enter `bundle install` in the terminal to populate gems.
+* To create a database, type in your terminal:  
+      `rake db:setup`
+* Run `rails s` to start the Rails server.
+* Open browswer and enter the url http://localhost:3000/ unless otherwise prompted in the terminal.
 
-* Services (job queues, cache servers, search engines, etc.)
+## License
 
-* Deployment instructions
-
-* ...
+[MIT](https://opensource.org/licenses/MIT) Copyright (c) 2022 Morgan Waites
