@@ -10,6 +10,7 @@
 * _Ruby on Rails_
 * _Postgres_
 * _Gems_
+* _Webpack_
 * _React library_
 * _Javascript_
 * _Node_
